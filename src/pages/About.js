@@ -1,9 +1,10 @@
-import React, {Fragment} from "react";
+import React from "react";
 
-export const Home = () => {
-    return (
-        <Fragment>
-            <h1>Home</h1>
-        </Fragment>
+export const About = () => (
+        <div className="jumbotron">
+            <div className="container">
+                <h1 className="display-4">To do list app</h1>
+                <p className="lead">version 20.09.19</p>
+            </div>
+        </div>
     )
-}
